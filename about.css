@@ -1,0 +1,30 @@
+
+
+.cake0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cake-video{
+        width: 550px;
+}
+
+.about-containt{
+    padding: 0px 12px 0px 0px;
+}
+
+.about-containt h2{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+
+.about-containt p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+span{
+    color: var(--bg-color);
+}

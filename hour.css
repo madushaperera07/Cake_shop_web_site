@@ -1,0 +1,51 @@
+article{
+    min-height: 100vh;
+    padding: 7rem 5% 2rem;
+}
+
+
+.hour-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.hour-image{
+    padding: 0px 7rem 0px 0px;
+}
+
+.hour-image img{
+    width: 600px;
+}
+
+.hour-container p{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+}
+
+.hour-container dl dt{
+    font-size: 1.5rem;
+}
+
+
+.hour-all .p{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--bg-color);
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.hour-all .p a{
+    color: var(--text-color);
+}
+
+
+.next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6rem;
+}

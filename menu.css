@@ -1,0 +1,59 @@
+.menu h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 20rem);
+    align-items: center;
+    gap: 1rem 16rem;
+}
+
+.menu-container .menu-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+
+.menu-box img{
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.menu-box img:hover {
+    transform: scale(1.1);
+}
+
+
+.menu-box .menu-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: 0.5s ease;
+}
+
+.menu-box:hover .menu-layer {
+    transform: translateY(0%);
+}
+
+.menu-layer h4{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.menu-layer p {
+    font-size: 1rem;
+    margin: 0.3rem 0 1rem 0;
+}

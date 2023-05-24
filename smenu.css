@@ -1,0 +1,45 @@
+.Smenu h2{
+    padding: 1rem;
+}
+
+.special-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-menu table {
+    margin: 1rem;
+}
+
+.special-menu caption{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+th, td, caption {
+    border: 1px solid var(--bg-color);
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.6rem 4rem 0.6rem 4rem;
+}
+
+.Smenu p{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--bg-color);
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.Smenu p a{
+    color: var(--text-color);
+}
+
+
+.next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
