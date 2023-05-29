@@ -20,7 +20,7 @@ nextPage.addEventListener("click" , (event) => {
 })
 
 
-var active = document.getElementsByClassName("active")
+var active = document.getElementsByClassName("action")
 
 active[0].textContent = ""
 active[1].textContent = ""
